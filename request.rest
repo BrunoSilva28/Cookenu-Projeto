@@ -1,0 +1,88 @@
+GET http://localhost:3003/user/feed
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+
+###
+GET http://localhost:3003/user/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+
+###
+GET http://localhost:3003/user/1.1347956
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQtNGEwYi1hOWNmLTBjNDYyNjZiMjAyNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxMDU4OSwiZXhwIjoxNjI4ODE0MTg5fQ.XmqusKlDZh7WF0q2zoNCq7ERdtr-cvp50FYJYoJmKkY
+
+###
+GET http://localhost:3003/recipe/2,996515
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQtNGEwYi1hOWNmLTBjNDYyNjZiMjAyNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxMDU4OSwiZXhwIjoxNjI4ODE0MTg5fQ.XmqusKlDZh7WF0q2zoNCq7ERdtr-cvp50FYJYoJmKkY
+
+###
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+{
+    "name": "Teste",
+    "email": "bruno.contateste.labenu@gmail.com",
+    "password": "123456",
+    "role": "normal"
+}
+
+###
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{
+    "email": "ana@labenu.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3003/recipe
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+
+{
+    "title": "Carlos 3",
+    "description": "descrição carlos"
+}
+
+###
+POST http://localhost:3003/user/follow
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+
+{
+    "userToFollowId": "f4090135-f9bf-429b-ad43-7c1ffbaa9eec"
+}
+
+###
+POST http://localhost:3003/user/unfollow
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQtNGEwYi1hOWNmLTBjNDYyNjZiMjAyNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgwNTM0OSwiZXhwIjoxNjI4ODA4OTQ5fQ.rGOnujvZQG_6F8xhCet7X4Kxur6O2nXaDy6TYQNLAkY
+
+
+{
+    "userToUnfollowId": "1.2654665"
+}
+
+###
+PUT http://localhost:3003/recipe/edit/2,154975
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxOTc2NywiZXhwIjoxNjI4ODIzMzY3fQ.uD4SuCLC-8bepb13STbWzSGQYWbyh5c_JUPDe9rL0vs
+
+{
+    "title": "arrozzinhoo"
+}
+
+###
+PUT http://localhost:3003/user/tempPass
+Content-Type: application/json
+
+{
+    "email": "bruno.contateste.labenu@gmail.com"
+}
+
+###
+DELETE http://localhost:3003/recipe/2,996515
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODg3MDMwNiwiZXhwIjoxNjI4ODczOTA2fQ.vUIReQiKp8gf0Y5iaJz2jvReULMhbWmpM9GO8m9RW_A
+
+###
+DELETE http://localhost:3003/user/959ee8f2-6542-4281-b0b4-bc1ff65e0956
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODg3MjMzMSwiZXhwIjoxNjI4ODc1OTMxfQ.psDFb5kkV5s0nfXxCHh29Ct4i9mrbjP0SrflvRg8gL8

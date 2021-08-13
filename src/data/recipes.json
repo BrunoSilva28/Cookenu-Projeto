@@ -1,0 +1,26 @@
+[
+    {
+        "id": "2,567895",
+        "title": "omelete",
+        "description": "Pegue 2 ovos e bata na batedeira. Jogue na frigideira e cozinhe durante 5min",
+        "createdAt": "2021-08-11",
+        "lastUpdate": "2021-08-11",
+        "creatorId": "1.2654665"
+    },
+    {
+        "id": "2,154975",
+        "title": "arroz",
+        "description": "Corte meia cebola e 3 cabeças de alho. Amasse. Refogue com óleo em temperatura baixa. Insira o arroz e misture. Adicione água gradativamente, até ter 3 dedos de água acima do nível do arror. Espere a água evaporar e desligue o fogo.",
+        "createdAt": "2021-08-11",
+        "lastUpdate": "2021-08-11",
+        "creatorId": "1.1347956"
+    },
+    {
+        "id": "2,996515",
+        "title": "nescau",
+        "description": "Pegue 1copo de 500mL de leite e adicione 2 colheres de achocolato em pó. Misture até dissolver completamente. Está pronto para beber!",
+        "createdAt": "2021-08-11",
+        "lastUpdate": "2021-08-11",
+        "creatorId": "1.1347956"
+    }
+]

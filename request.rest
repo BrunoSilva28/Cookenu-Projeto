@@ -1,25 +1,25 @@
 GET http://localhost:3003/user/feed
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkOTk5OWY2LTgzMTktNDk0OS1iNDNjLTMxM2JlODkxNDM5YSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2MjkxMzg2NjQsImV4cCI6MTYyOTE0MjI2NH0.VG3tobu4zdEa7jfClSv-TNEjb19HBF9V9WBtEFdGZNc
 
 ###
 GET http://localhost:3003/user/profile
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyOTEzNDI0NCwiZXhwIjoxNjI5MTM3ODQ0fQ.NPm-Z7kqL6UsPoo5_jOOopYwrw6wDAwrAWCtyhZ9tT0
 
 ###
-GET http://localhost:3003/user/1.1347956
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQtNGEwYi1hOWNmLTBjNDYyNjZiMjAyNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxMDU4OSwiZXhwIjoxNjI4ODE0MTg5fQ.XmqusKlDZh7WF0q2zoNCq7ERdtr-cvp50FYJYoJmKkY
+GET http://localhost:3003/user/3b5bb57a-ee0b-4961-8142-a4ee6c89ace9
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyOTEzNDI0NCwiZXhwIjoxNjI5MTM3ODQ0fQ.NPm-Z7kqL6UsPoo5_jOOopYwrw6wDAwrAWCtyhZ9tT0
 
 ###
-GET http://localhost:3003/recipe/2,996515
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQtNGEwYi1hOWNmLTBjNDYyNjZiMjAyNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxMDU4OSwiZXhwIjoxNjI4ODE0MTg5fQ.XmqusKlDZh7WF0q2zoNCq7ERdtr-cvp50FYJYoJmKkY
+GET http://localhost:3003/recipe/b85bdf54-e841-4c37-84a2-ccef4714c6b7
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyOTEzNDI0NCwiZXhwIjoxNjI5MTM3ODQ0fQ.NPm-Z7kqL6UsPoo5_jOOopYwrw6wDAwrAWCtyhZ9tT0
 
 ###
 POST http://localhost:3003/signup
 Content-Type: application/json
 
 {
-    "name": "Teste",
-    "email": "bruno.contateste.labenu@gmail.com",
+    "name": "NomeDoUsuario",
+    "email": "emaildousuario@email.com",
     "password": "123456",
     "role": "normal"
 }
@@ -29,27 +29,27 @@ POST http://localhost:3003/login
 Content-Type: application/json
 
 {
-    "email": "ana@labenu.com",
+    "email": "emaildousuario@email.com",
     "password": "123456"
 }
 
 ###
 POST http://localhost:3003/recipe
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkOTk5OWY2LTgzMTktNDk0OS1iNDNjLTMxM2JlODkxNDM5YSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2MjkxMzYwMzEsImV4cCI6MTYyOTEzOTYzMX0.GTFPJWW9jFgQAWpBa15onw9zcbGj6ymadpkqhecGBuA
 
 {
-    "title": "Carlos 3",
-    "description": "descrição carlos"
+    "title": "Nova receita",
+    "description": "descrição de nova receita"
 }
 
 ###
 POST http://localhost:3003/user/follow
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUwOTVhYWFkLTNlYmEtNDc0MC1hOTQzLTRjMmEwM2MzNmE1MSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2Mjg4MTcwNzAsImV4cCI6MTYyODgyMDY3MH0.r1Aty3NcxN45I5y4rGI2x2ytH8Q2me_LzL6qbGRQ91M
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkOTk5OWY2LTgzMTktNDk0OS1iNDNjLTMxM2JlODkxNDM5YSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2MjkxMzYwMzEsImV4cCI6MTYyOTEzOTYzMX0.GTFPJWW9jFgQAWpBa15onw9zcbGj6ymadpkqhecGBuA
 
 {
-    "userToFollowId": "f4090135-f9bf-429b-ad43-7c1ffbaa9eec"
+    "userToFollowId": "3b5bb57a-ee0b-4961-8142-a4ee6c89ace9"
 }
 
 ###
@@ -63,12 +63,13 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczZGY5NTk2LWI1MmQt
 }
 
 ###
-PUT http://localhost:3003/recipe/edit/2,154975
+PUT http://localhost:3003/recipe/edit/90c161a8-a9d4-4e3a-a816-d2c452fc41d3
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1OWVlOGYyLTY1NDItNDI4MS1iMGI0LWJjMWZmNjVlMDk1NiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyODgxOTc2NywiZXhwIjoxNjI4ODIzMzY3fQ.uD4SuCLC-8bepb13STbWzSGQYWbyh5c_JUPDe9rL0vs
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkOTk5OWY2LTgzMTktNDk0OS1iNDNjLTMxM2JlODkxNDM5YSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2MjkxMzYwMzEsImV4cCI6MTYyOTEzOTYzMX0.GTFPJWW9jFgQAWpBa15onw9zcbGj6ymadpkqhecGBuA
 
 {
-    "title": "arrozzinhoo"
+    "title": "novo título",
+    "description": "nova descrição"
 }
 
 ###

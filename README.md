@@ -10,7 +10,7 @@
 ---
 ## DOCUMENTAÇÃO DE FUNCIONAMENTO
 
-### LINK DA DOCUMENTAÇÃO NO POSTMAN: https://documenter.getpostman.com/view/15825773/Tzz4PeRJ
+### LINK DA DOCUMENTAÇÃO NO POSTMAN: https://documenter.getpostman.com/view/15825773/Tzz8sHfv
 
 ### `GET` All Recipes From Followed Users
 
